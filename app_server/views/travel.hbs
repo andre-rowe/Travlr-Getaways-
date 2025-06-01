@@ -1,0 +1,11 @@
+<h1>Travel</h1>
+<ul id="sites">
+	{{#each trips}}
+	<li>
+		<a href="#"><img src="/{{this.image}}" alt="Img"></a>
+		<h2><a href="#">{{this.name}}</a></h2>
+		<p>{{this.description1}}</p>
+		<p>{{this.description2}}</p>
+	</li>
+	{{/each}}
+</ul>

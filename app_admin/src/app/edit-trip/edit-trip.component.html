@@ -1,0 +1,18 @@
+<div class="col-md-6 mx-auto mt-4">
+    <h3>Edit Trip</h3>
+
+    <form [formGroup]="form" (ngSubmit)="submit()">
+        <input class="form-control mb-2" formControlName="code" placeholder="Code">
+        <input class="form-control mb-2" formControlName="name" placeholder="Name">
+        <input class="form-control mb-2" formControlName="length" placeholder="Length (e.g. 7 days)">
+        <input class="form-control mb-2" formControlName="start" type="date" placeholder="Start date">
+        <input class="form-control mb-2" formControlName="resort" placeholder="Resort">
+        <input class="form-control mb-2" formControlName="perPerson" placeholder="Price per person">
+        <input class="form-control mb-2" formControlName="image" placeholder="Image filename">
+        <textarea class="form-control mb-3" rows="3" formControlName="description" placeholder="Description"></textarea>
+
+        <button class="btn btn-primary w-100" [disabled]="form.invalid">Save</button>
+    </form>
+
+    <p class="text-danger mt-2" *ngIf="error">{{ error }}</p>
+</div>

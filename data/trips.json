@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Gale Reef",
+        "price": 250,
+        "description": "Beautiful coral formations and vibrant fish await you. Perfect for intermediate divers looking for a scenic route.",
+        "date": "2023-06-15T00:00:00Z",
+        "image": "images/reef1.jpg"
+    },
+    {
+        "title": "Dawson's Reef",
+        "price": 300,
+        "description": "Deep dives and hidden caves to explore. Guided tours available daily.",
+        "date": "2023-07-01T00:00:00Z",
+        "image": "images/reef2.jpg"
+    },
+    {
+        "title": "Claire’s Reef",
+        "price": 200,
+        "description": "Shallow waters and safe zones, ideal for beginners. Popular with families and snorkelers.",
+        "date": "2023-08-01T00:00:00Z",
+        "image": "images/reef3.jpg"
+    }
+]
